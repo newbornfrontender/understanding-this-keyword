@@ -15,12 +15,13 @@ class NameGenerator {
 
     const btn = document.querySelector('button');
     // btn.addEventListener('click', this.addName.bind(this));
-    btn.addEventListener(
-      'click',
-      function() {
-        this.addName();
-      }.bind(this),
-    );
+    // btn.addEventListener(
+    //   'click',
+    //   function() {
+    //     this.addName();
+    //   }.bind(this),
+    // );
+    btn.addEventListener('click', () => this.addName());
   }
 
   addName() {
