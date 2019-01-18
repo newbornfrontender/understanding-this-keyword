@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "repository": "https://github.com/newbornfrontender/understanding-this-keyword.git",
   "author": "Infant Frontender <newbornfrontender@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "pretty": "prettier --write *.{html,js,json,md}"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  }
 }
